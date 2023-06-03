@@ -1,12 +1,8 @@
 import TelegramMesajGonder
 import RSI
 from binance.client import Client
-from binance.enums import *
-import ta
 import time
 import pandas as pd
-import numpy as np
-import re
 
 def sendTelegramMessage(message):
     chat_id = "Telegram-Chat_id"
